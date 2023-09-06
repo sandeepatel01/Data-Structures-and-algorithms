@@ -16,14 +16,17 @@ bool printPrimeNum(int n)
 }
 int main()
 {
-    bool primeNumber = printPrimeNum(4);
-    if (primeNumber)
+    int n;
+    cin >> n;
+
+    for (int i = 2; i <= n; i++)
     {
-        cout << "Prime" << endl;
+        bool isPrime = printPrimeNum(i);
+        if (isPrime)
+        {
+            cout << i << " ";
+        }
     }
-    else
-    {
-        cout << "Not Prime!" << endl;
-    }
+
     return 0;
 }
