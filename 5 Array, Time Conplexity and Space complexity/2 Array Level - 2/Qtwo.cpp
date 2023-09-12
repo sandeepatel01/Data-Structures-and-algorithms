@@ -4,11 +4,19 @@
 using namespace std;
 void printPairs(int arr[], int n)
 {
+    // for (int i = 0; i < n; i++)
+    // {
+    //     for (int j = 0; j < n; j++)
+    //     {
+    //         cout << "(" << arr[i] << "," << arr[j] << ")" << endl;
+    //     }
+    // }
+
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = i; j < n; j++)
         {
-            cout << "(" << i << "," << j << ")" << endl;
+            cout << "(" << arr[i] << "," << arr[j] << ")" << endl;
         }
     }
 }
