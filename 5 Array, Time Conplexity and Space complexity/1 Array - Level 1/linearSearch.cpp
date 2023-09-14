@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Linear Search using functions 
 bool linearSearch(int arr[], int n, int target){
     for(int i=0; i<n; i++){
         if(arr[i] == target){
