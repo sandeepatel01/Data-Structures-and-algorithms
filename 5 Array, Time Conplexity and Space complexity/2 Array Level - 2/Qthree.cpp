@@ -9,7 +9,7 @@ void printPairs(int arr[], int n)
         for (int j = 0; j < n; j++)
         {
             int sum = arr[i] + arr[j];
-            cout << arr[i] << " + " << arr[j] << " = " << sum << std::endl;
+            cout << arr[i] << " + " << arr[j] << " = " << sum <<endl;
         }
     }
 }
