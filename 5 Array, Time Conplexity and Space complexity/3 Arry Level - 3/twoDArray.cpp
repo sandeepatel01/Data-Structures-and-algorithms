@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// row wise access 
 void printTwoDArray(int arr[][4], int row, int col){
     for(int i=0; i<row; i++){
         for(int j=0; j<col; j++){
@@ -9,6 +10,17 @@ void printTwoDArray(int arr[][4], int row, int col){
         cout<<endl;
     }
 }
+
+// column wise access 
+void printTwoDArrayCol(int arr[][4], int row, int col){
+    for(int i=0; i<col; i++){
+        for(int j=0; j<row; j++){
+            cout<<arr[j][i]<<" ";
+        }
+        cout<<endl;
+    }
+}
+
 int main(){
  
 //  Creating 2D array 
@@ -20,7 +32,12 @@ int main(){
 
 int row = 3;
 int col =4;
+
+cout<<"row wose access: "<<endl;
 printTwoDArray(arr, row, col);
+
+cout<<"columns wise access: "<<endl;
+printTwoDArrayCol(arr, row, col);
 
  return 0;
 }
