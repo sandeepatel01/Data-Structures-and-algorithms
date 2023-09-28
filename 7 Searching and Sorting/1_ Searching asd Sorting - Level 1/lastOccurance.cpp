@@ -25,7 +25,7 @@ int findLasttOccurance(int arr[], int n, int target){
 
 int main(){
  
- int arr[] = {10,20,30,30,30,30,30,50};
+ int arr[] = {10,20,30,30,30,30,30,30};
  int n=8;
  int target = 30;
 

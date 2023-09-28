@@ -25,7 +25,7 @@ int firstOccurance(int arr[], int n, int target){
 
 int main(){
  
- int arr[] = {10,20,30,30,30,30,40,50};
+ int arr[] = {30,30,30,30,30,30,40,50};
  int n=8;
  int target = 30;
 
