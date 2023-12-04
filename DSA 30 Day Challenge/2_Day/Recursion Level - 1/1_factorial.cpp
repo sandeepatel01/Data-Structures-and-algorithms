@@ -9,7 +9,7 @@ int factorial(int n){
     if(n == 0)
     return 1;
 
-    // Recursive call 
+    // Recursive call(Relation) 
     int recursiveAns = factorial(n-1);
 
     // Processing 
@@ -20,6 +20,6 @@ int factorial(int n){
 int main(){
  int ans = factorial(5);
  cout<<ans<<endl;
- 
+
  return 0;
 }

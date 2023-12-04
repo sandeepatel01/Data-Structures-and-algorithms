@@ -2,11 +2,12 @@
 using namespace std;
 
 int printSum(int n){
+
     // Base case 
     if(n == 1)
       return 1;
 
-//    Recursive call 
+//    Recursive call(Relation) 
 int recursiveAns = printSum(n-1);
 
 // Processing 

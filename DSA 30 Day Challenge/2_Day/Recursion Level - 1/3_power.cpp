@@ -8,7 +8,7 @@ int power(int n){
     if(n == 0)
     return 1;
 
-    // Recursive call 
+    // Recursive call(Relation) 
     int recursiveAns = 2;
 
     // Processing 

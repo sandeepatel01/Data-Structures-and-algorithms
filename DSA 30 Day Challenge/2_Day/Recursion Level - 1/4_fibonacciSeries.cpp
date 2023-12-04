@@ -11,7 +11,7 @@ int fibonacciNumbers(int n){
     if(n == 1)
     return 1;
 
-    // Recursive relation 
+    // Recursive relation(Relation)
     int ans = fibonacciNumbers(n-1) + fibonacciNumbers(n-2);
     return ans;
 

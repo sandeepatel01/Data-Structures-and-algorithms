@@ -21,7 +21,7 @@ void printCountingInIncreasingOrder(int n){
     return ;
     }
 
-    // Recursive call 
+    // Recursive call(Relation) 
     printCountingInIncreasingOrder(n-1);
 
     cout<<n<<" ";
